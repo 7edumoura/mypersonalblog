@@ -49,7 +49,7 @@ params:
   # You can also hide it from the footer.
   newsletter:
     # specify whether you want to display the newsletter form 
-    enable: true
+    enable: false
     # specify which newsletter provider you want to use
     provider: mailchimp
     # specify the target URL for the subscription form
