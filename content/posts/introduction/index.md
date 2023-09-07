@@ -11,74 +11,102 @@ tags: ["Basic", "Multi-lingual"]
 categories: ["Basic"]
 ---
 
+# Título do projeto
 
-package main
+Um parágrafo da descrição do projeto vai aqui
 
-import (
-	"fmt"
-	"io/ioutil"
-	"net/http"
-)
+## 🚀 Começando
 
-func main() {
-	// URL da página externa que você deseja carregar
-	url := "https://medium.com/itnext/building-a-ci-cd-pipeline-for-a-serverless-express-application-with-aws-cdk-1d3c842ea1ff"
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-	// Faça uma solicitação HTTP GET para a URL
-	resp, err := http.Get(url)
-	if err != nil {
-		fmt.Println("Erro ao fazer a solicitação HTTP:", err)
-		return
-	}
-	defer resp.Body.Close()
+Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
-	// Verifique o código de status da resposta
-	if resp.StatusCode != http.StatusOK {
-		fmt.Println("Erro: Status Code", resp.StatusCode)
-		return
-	}
+### 📋 Pré-requisitos
 
-	// Leia o conteúdo da resposta
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		fmt.Println("Erro ao ler o corpo da resposta:", err)
-		return
-	}
+De que coisas você precisa para instalar o software e como instalá-lo?
 
-	// Exiba o conteúdo da página externa
-	fmt.Println(string(body))
-}
+```
+Dar exemplos
+```
+
+### 🔧 Instalação
+
+Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+
+Diga como essa etapa será:
+
+```
+Dar exemplos
+```
+
+E repita:
+
+```
+Até finalizar
+```
+
+Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+
+## ⚙️ Executando os testes
+
+Explicar como executar os testes automatizados para este sistema.
+
+### 🔩 Analise os testes de ponta a ponta
+
+Explique que eles verificam esses testes e porquê.
+
+```
+Dar exemplos
+```
+
+### ⌨️ E testes de estilo de codificação
+
+Explique que eles verificam esses testes e porquê.
+
+```
+Dar exemplos
+```
+
+## 📦 Implantação
+
+Adicione notas adicionais sobre como implantar isso em um sistema ativo
+
+## 🛠️ Construído com
+
+Mencione as ferramentas que você usou para criar seu projeto
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
+* [Maven](https://maven.apache.org/) - Gerente de Dependência
+* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
+
+## 🖇️ Colaborando
+
+Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+
+## 📌 Versão
+
+Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+
+## ✒️ Autores
+
+Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+
+* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
+* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
+
+Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
+
+## 📄 Licença
+
+Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
+
+## 🎁 Expressões de gratidão
+
+* Conte a outras pessoas sobre este projeto 📢;
+* Convide alguém da equipe para uma cerveja 🍺;
+* Um agradecimento publicamente 🫂;
+* etc.
 
 
-G# Título do Documento
-
-Este é um exemplo de um arquivo Markdown. Você pode usar o Markdown para criar documentos de texto formatados de maneira simples e fácil.
-
-## Lista de Itens
-
-- Item 1
-- Item 2
-- Item 3
-
-## Links
-
-Você pode criar [links](https://medium.com/itnext/building-a-ci-cd-pipeline-for-a-serverless-express-application-with-aws-cdk-1d3c842ea1ff) para outros sites.
-
-## Imagens
-
-Você pode incorporar imagens também:
-
-![Imagem de Exemplo](imagem.jpg)
-
-## Formatação de Texto
-
-Você pode *enfatizar* palavras ou **realçar** textos facilmente.
-
-## Blocos de Código
-
-Você pode incluir blocos de código em seu documento:
-
-```python
-def exemplo():
-    print("Isso é um exemplo de código.")
-
+---
+⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
